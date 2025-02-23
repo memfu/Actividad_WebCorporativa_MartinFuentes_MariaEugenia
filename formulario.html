@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="shortcut icon" href="assets/IMG/icon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="María Eugenia Martín Fuentes">
+    <meta name="description" content="Ejercicio Web Corporativa con HTML y CSS">
+    <!--Insertamos el archivo CSS externo-->
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <title>Breaking Bad - Formulario</title>
+</head>
+<body class="conFondo">
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" name="formBB">
+            <h3>Breaking Bad - ¡Qué comience el juego!</h3>
+            <fieldset>         
+                <legend>Datos personales</legend>
+                <div class="campo">
+                    <label for="nombre">Nombre(*):</label>
+                    <input type="text" id="nombre" name="nombre" class="inputLargo" required>
+                    <label for="apellidos">Apellidos(*):</label>
+                    <input type="text" id="apellidos" name="apellidos" class="inputLargo" required>
+                    <br>
+                    <label for="dni">DNI:</label>
+                    <input type="text" id="dni" name="dni">
+                    <label for="fechaNac" id="campoFechaNac">Fecha de nacimiento:</label>
+                    <input type="date" id="fechaNac" name="fechaNac">
+                    <br>
+                    <label for="genero" id="campoGenero">Seleccione su género:</label>
+                        <input type="radio" name="genero" value="hombre">Hombre
+                        <input type="radio" name="genero" value="mujer">Mujer
+                        <input type="radio" name="genero" value="otro">Otro <input type="text" id="generoOtro" name="generoOtro">
+                    <br>
+                    
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Dirección postal</legend>
+                <div class="campo">
+                    <label for="calle">Calle:</label>
+                    <input type="text" id="calle" name="calle" class="inputLargo">
+                    <label for="numero">Número:</label>
+                    <input type="number" id="numero" name="numero" class="inputCorto">
+                    <label for="piso">Piso:</label>
+                    <input type="text" id="piso" name="piso" class="inputCorto">
+                    <br>
+                    <label for="codPost" id="campocodPost">Código postal:</label>
+                    <input type="number" id="codPost" name="codPost" min="01000" max="52999">
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" id="ciudad" name="ciudad" class="inputLargo">
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Datos de contacto</legend>
+                <div class="campo">
+                    <label for="email" id="campoCorreo">Correo electrónico(*):</label>
+                    <input type="email" id="email" name="email" class="inputLargo" required>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Elige tu personaje favorito</legend>
+                <div class="campo">
+                    <select id="personajes" name="personajes">
+                        <option value="1">Jessie Pinkman</option>
+                        <option value="2">Walter White</option>
+                        <option value="3">Saul Goodman</option>
+                        <option value="4">Gustavo Fring</option>
+                        <option value="5">Pollos Hermanos</option>
+                        <option value="6">Otros personajes</option>
+                    </select>
+                    
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Comentarios</legend>
+                <textarea name="comentarios" id="comentarios">Escribe tu comentario aquí</textarea>
+            </fieldset>
+                Aquí puedes adjuntar un archivo PDF
+                <input type="file" name="adjunto" accept=".pdf">
+
+            <br><input type="submit" value="Enviar"><input type="reset" value="Borrar">
+            <br>
+            
+        </form> 
+</body>
+</html>

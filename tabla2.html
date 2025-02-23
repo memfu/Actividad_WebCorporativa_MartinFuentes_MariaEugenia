@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad Periodic Table</title>
+    <style>
+        body {
+            background-color: #4a5d32;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        table {
+            border-collapse: collapse;
+            background-color: #2e381f;
+            padding: 10px;
+        }
+        td {
+            width: 90px;
+            height: 90px;
+            border: 2px solid #000;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            vertical-align: middle;
+            position: relative;
+        }
+        .highlight-green {
+            background-color: #a3c048;
+            color: black;
+        }
+        .highlight-yellow {
+            background-color: #d4d158;
+            color: black;
+        }
+        .highlight-purple {
+            background-color: #7a5d8a;
+            color: white;
+        }
+        .image-cell {
+            background-size: cover;
+        }
+        .icon {
+            width: 70px;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+        .hank {
+            background: url('IMG/TablaPeriodica/hankschrader.png') no-repeat center;
+            background-size: cover;
+        }
+        .abbreviation {
+            font-size: 40px;
+            display: block;
+        }
+        .name {
+            font-size: 10px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="highlight-green" rowspan="2"><span class="abbreviation">W</span><span class="name">Walter White</span></td>
+            <td rowspan="2" class="hank"></td>
+            <td class="highlight-green" rowspan="2"><span class="abbreviation">Sk</span><span class="name">Skyler White</span></td>
+            <td class="highlight-purple"><span class="abbreviation">G</span><span class="name">Gustavo Fring</span></td>
+        </tr>
+        <tr>
+            <td class="highlight-purple"><span class="abbreviation">Ma</span><span class="name">Marie Schrader</span></td>
+        </tr>
+        <tr>
+            <td class="highlight-yellow" colspan="2"><span class="abbreviation">St</span><span class="name">Steven Gomez</span></td>
+            <td class="highlight-yellow" colspan="2"><span class="abbreviation">Sa</span><span class="name">Saul Goodman</span></td>
+        </tr>
+        <tr>
+            <td class="highlight-yellow"><span class="abbreviation">Ra</span><span class="name">SAC Ramey</span></td>
+            <td class="highlight-green"><span class="abbreviation">J</span><span class="name">Jesse Pinkman</span></td>
+            <td class="highlight-purple"><span class="abbreviation">He</span><span class="name">Hector Salamanca</span></td>
+            <td class="highlight-green"><span class="abbreviation">LS</span><span class="name">Lorna Salamanca</span></td>
+        </tr>
+        <tr>
+            <td class="highlight-yellow" rowspan="2"><span class="abbreviation">TS</span><span class="name">Tuco Salamanca</span></td>
+            <td class="highlight-purple" rowspan="2"><span class="abbreviation">MS</span><span class="name">Marco Salamanca</span></td>
+            <td class="highlight-green"><span class="abbreviation">OJ</span><span class="name">Old Joe</span></td>
+            <td class="highlight-yellow"><span class="abbreviation">ND</span><span class="name">No-Doze</span></td>
+        </tr>
+        <tr>
+            <td colspan="2"><img src="IMG/TablaPeriodica/cristal.png" class="icon" alt="Meth"></td>
+        </tr>
+        <tr>
+            <td colspan="4" style="text-align: center; font-size: 20px; font-weight: bold;">Objetos y Símbolos</td>
+        </tr>
+        <tr>
+            <td><img src="IMG/TablaPeriodica/badger.png" class="icon" alt="Badger"></td>
+            <td><img src="IMG/TablaPeriodica/bus.png" class="icon" alt="RV"></td>
+            <td><img src="IMG/TablaPeriodica/calzoncillos.png" class="icon" alt="Calzoncillos"></td>
+            <td><img src="IMG/TablaPeriodica/gale.png" class="icon" alt="Gale"></td>
+        </tr>
+        <tr>
+            <td><img src="IMG/TablaPeriodica/mascara.png" class="icon" alt="Máscara de gas"></td>
+            <td><img src="IMG/TablaPeriodica/mike.png" class="icon" alt="Mike"></td>
+            <td><img src="IMG/TablaPeriodica/mosca.png" class="icon" alt="Mosca"></td>
+            <td><img src="IMG/TablaPeriodica/movil.png" class="icon" alt="Móvil"></td>
+        </tr>
+        <tr>
+            <td><img src="IMG/TablaPeriodica/pistola.png" class="icon" alt="Pistola"></td>
+            <td><img src="IMG/TablaPeriodica/pizza.png" class="icon" alt="Pizza"></td>
+            <td><img src="IMG/TablaPeriodica/plato.png" class="icon" alt="Plato roto"></td>
+            <td><img src="IMG/TablaPeriodica/pocima.png" class="icon" alt="Pócima química"></td>
+        </tr>
+    </table>
+</body>
+</html>
+

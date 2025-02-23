@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="shortcut icon" href="assets/IMG/icon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="María Eugenia Martín Fuentes">
+    <meta name="description" content="Ejercicio Web Corporativa con HTML y CSS">
+    <!--Insertamos el archivo CSS externo-->
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <title>Breaking Bad - Tabla</title>
+</head>
+<body class="sinFondo">
+    <img class="centrado" id="cabecera" src="assets/IMG/cabecera.png" alt="cabecera Breaking Bad">
+    <!-- 8 td, 11 tr-->
+    <table>
+        <!--Fila 1-->
+        <tr class="abreviatura">
+            <td rowspan="2" class="verdeLima">
+                <img class="simbolo" src="assets/IMG/TablaPeriodica/walterwhite.png" alt="Walter White">
+                <p>W</p>   
+                <p class="nombreCompleto">Walter White</p>
+            </td>
+            <td colspan="9"></td>
+            <td class="verdeCamoClaro">DE
+                <br><p class="nombreCompleto">Don Eladio</p>
+            </td>
+        </tr>
+        <!--Fila 2-->
+        <tr class="abreviatura">
+            <td rowspan="2" id="hankSchrader"></td>
+            <td colspan="4"></td>
+            <td rowspan="2" class="verdeLima">
+                <p>He</p> 
+                <p class="nombreCompleto">Hector Salamanca</p>
+                <img class="simbolo" src="assets/IMG/TablaPeriodica/hectorsalamanca.png" alt="Hector Salamanca">
+                
+            </td>
+            <td rowspan="2" class="verdeLima">
+                <p>TS</p>  
+                <p class="nombreCompleto">Tuco Salamanca</p>
+                <img class="simbolo" src="assets/IMG/TablaPeriodica/tucosalamanca.png" alt="Tuco Salamanca">    
+            </td>
+            <td rowspan="2" class="gris">
+                <p>G</p>                    
+                <p class="nombreCompleto">Gustavo Fring</p>
+                <img class="simbolo" src="assets/IMG/TablaPeriodica/gustavofrink.png" alt="Gustavo Fring">   
+            </td>
+            <td class="gris">Ty
+                <br><p class="nombreCompleto">Tyrus Kitt</p>
+            </td>
+            <td class="verdeCamoClaro">Ju
+                <br><p class="nombreCompleto">Juan Bolsa</p>
+            </td>
+        </tr>
+        <!--Fila 3-->
+        <tr class="abreviatura">
+            <td rowspan="2" class="verdeLima">
+                <p>Sk</p>
+                <p class="nombreCompleto">Skyler White</p>
+                <img class="simbolo" src="assets/IMG/TablaPeriodica/skylerwhite.png" alt="Skyler White">
+            </td>
+            <td class="verdeMasClaro">St
+                <br><p class="nombreCompleto">Steven Gomez</p>
+            </td>
+            <td rowspan="2" class="verdeCamoMedio">
+                <p>Sa</p>
+                <p class="nombreCompleto">Saul Goodman</p>
+                <img class="simbolo" src="assets/IMG/TablaPeriodica/saulgoodman.png" alt="Saul Goodman">
+            </td>
+            <td rowspan="2" class="verdeCamoMedio">
+                <p>J</p>                    
+                <p class="nombreCompleto">Jessie Pinkman</p>
+                <img class="simbolo" src="assets/IMG/TablaPeriodica/jessiepinkman.png" alt="Jessie Pinkman"> 
+            </td>
+            <td class="verdeCamoOscuro">SP
+                <br><p class="nombreCompleto">Skinny Peter</p>
+            </td>   
+            <td rowspan="2" class="gris">
+                <p>Ga</p>
+                <p class="nombreCompleto">Gale Boetticher</p>
+                <img class="simbolo" src="assets/IMG/TablaPeriodica/gale.png" alt="Gale Boetticher">
+            </td>
+            <td class="verdeCamoClaro">To
+                <br><p class="nombreCompleto">El Tortuga</p>
+            </td>
+        </tr>
+        <!--Fila 4-->
+        <tr class="abreviatura">
+            <td rowspan="2" id="marieLila" class="abreviatura">
+                <p>Ma</p>
+                <p class="nombreCompleto">Marie Schrader</p>
+                <img class="simbolo" src="assets/IMG/TablaPeriodica/marieschrader.png" alt="Marie Schrader"> 
+            </td>
+            <td class="verdeMasClaro">Ra
+                <br><p class="nombreCompleto">SAC Ramey</p>
+            </td>
+            <td rowspan="2" class="verdeCamoOscuro">
+                <p>Bg</p>
+                <p class="nombreCompleto">Badger</p>
+                <img class="simbolo" src="assets/IMG/TablaPeriodica/badger.png" alt="Badger">  
+            </td>
+            <td class="verdeLima">LS
+                <br><p class="nombreCompleto">Leonel Salamanca</p>
+            </td>
+            <td class="verdeLima">MS
+                <br><p class="nombreCompleto">Marco Salamanca</p>
+            </td>
+            <td rowspan="2" class="gris">
+                <p>M</p>
+                <p class="nombreCompleto">Mike Ehrmantraut</p>
+                <img class="simbolo" src="assets/IMG/TablaPeriodica/mike.png" alt="Mike Ehrmantraut">   
+            </td>
+            <td class="verdeCamoClaro">Gf
+                <br><p class="nombreCompleto">Gaff</p>
+            </td>
+        </tr>
+        <!--Fila 5-->
+        <tr class="abreviatura">
+            <td class="verdeLima">WJ
+                <br><p class="nombreCompleto">Walter Jr.</p>
+            </td>
+            <td class="verdeMasClaro">Ge
+                <br><p class="nombreCompleto">ASAC George Merkert</p>
+            </td>
+            <td class="verdeCamoMedio">Hu
+                <br><p class="nombreCompleto">Huell</p>
+            </td>
+            <td class="verdeCamoMedio">OJ
+                <br><p class="nombreCompleto">Old Joe</p>
+            </td>
+            <td class="verdeCamoOscuro">K8
+                <br><p class="nombreCompleto">Krazy-8</p>
+            </td>
+            <td class="verdeLima">ND
+                <br><p class="nombreCompleto">No-Doze</p>
+            </td>
+            <td class="gris">Vi
+                <br><p class="nombreCompleto">Victor</p>
+            </td>
+            <td class="gris">Ly
+                <br><p class="nombreCompleto">Lydia Rodarte-Quayle</p>
+            </td>
+        </tr>
+        <!--Fila 6-->
+        <tr class="abreviatura">
+            <td class="verdeLima">Ho
+                <br><p class="nombreCompleto">Holly White</p>
+            </td>
+            <td class="verdeClaro">Te
+                <br><p class="nombreCompleto">Ted Benecke</p>
+            </td>
+            <td class="verdeMasClaro">Ti
+                <br><p class="nombreCompleto">Tim Roberts</p>
+            </td>
+            <td class="verdeCamoMedio">Ku
+                <br><p class="nombreCompleto">Kuby</p>
+            </td>
+            <td class="verdeCamoMedio">La
+                <br><p class="nombreCompleto">Lawson</p>
+            </td>
+            <td class="verdeCamoOscuro">Co
+                <br><p class="nombreCompleto">Combo Ortega</p>
+            </td>
+            <td class="verdeCamoOscuro">Em
+                <br><p class="nombreCompleto">Emilio Koyama</p>
+            </td>
+            <td class="verdeLima">Go
+                <br><p class="nombreCompleto">Gonzo</p>
+            </td>
+            <td class="gris">Mx
+                <br><p class="nombreCompleto">Maximino Arciniega</p>
+            </td>
+            <td class="gris">De
+                <br><p class="nombreCompleto">Dennis Markowski</p>
+            </td>
+            <td class="gris">Da
+                <br><p class="nombreCompleto">Dan Wachsberger</p>
+            </td>
+        </tr>
+        <!--Fila 7-->
+        <tr class="abreviatura">
+            <td class="verdeClaro">El
+                <br><p class="nombreCompleto">Elliot Schwartz</p>
+            </td>
+            <td class="verdeClaro">Bo
+                <br><p class="nombreCompleto">Bogdan</p>
+            </td>
+            <td class="verdeClaro">Hg
+                <br><p class="nombreCompleto">Hugo Archuleta</p>
+            </td>
+            <td class="verdeClaro">Mr
+                <br><p class="nombreCompleto">Mr. Pinkmann</p>
+            </td>
+            <td class="verdeCamoMedio">To
+                <br><p class="nombreCompleto">Todd</p>
+            </td>
+            <td class="verdeCamoOscuro">AC
+                <br><p class="nombreCompleto">Andrea Cantillo</p>
+            </td>
+            <td class="verdeCamoOscuro">JM
+                <br><p class="nombreCompleto">Jane Margolis</p>
+            </td>
+            <td class="verdeClaro">NA
+                <br><p class="nombreCompleto">NA Leader</p>
+            </td>
+            <td class="gris">Ch
+                <br><p class="nombreCompleto">Chris Mara</p>
+            </td>
+            <td class="gris">DU
+                <br><p class="nombreCompleto">Duane Chow</p>
+            </td>
+            <td class="verdeClaro">Sp
+                <br><p class="nombreCompleto">Spooge</p>
+            </td>
+        </tr>
+        <!--Fila 8-->
+        <tr class="verdeClaro abreviatura">
+            <td>Gr
+                <br><p class="nombreCompleto">Gretchen Schwartz</p>
+            </td>
+            <td>Ca
+                <br><p class="nombreCompleto">Carmen Molina</p>
+            </td>
+            <td>JP
+                <br><p class="nombreCompleto">Jake Pinkman</p>
+            </td>
+            <td>Ms
+                <br><p class="nombreCompleto">Mrs Pinkman</p>
+            </td>
+            <td>CI
+                <br><p class="nombreCompleto">Clovis</p>
+            </td>
+            <td>BC
+                <br><p class="nombreCompleto">Brock Cantillo</p>
+            </td>
+            <td>DM
+                <br><p class="nombreCompleto">Donald Margolis</p>
+            </td>
+            <td>Dr
+                <br><p class="nombreCompleto">Drew Sharp</p>
+            </td>
+            <td>Lo
+                <br><p class="nombreCompleto">Lois</p>
+            </td>
+            <td>Dc
+                <br><p class="nombreCompleto">Declan</p>
+            </td>
+            <td>We
+                <br><p class="nombreCompleto">Wendy</p>
+            </td>
+        </tr>
+    </table>
+    <br>
+
+    <!--Segunda tabla-->
+    <table id="segundaTabla">
+        <tr class="tablaInferior">
+            <td>
+                <p class="abreviatura">B</p>
+                <p class="nombreCompleto">Blue Sky Meth</p>  
+            </td>
+            <td>
+                <img class="simboloSolo" src="assets/IMG/TablaPeriodica/bus.png" alt="">
+            </td>
+            <td class="abreviatura">Pi
+                <br><p class="nombreCompleto">Roof Pizza</p>
+            </td>
+            <td>
+                <img class="simboloSolo" src="assets/IMG/TablaPeriodica/pistola.png" alt="">
+            </td>
+            <td class="abreviatura">Ti
+                <br><p class="nombreCompleto">Tighty Whiteys</p>
+            </td>
+            <td>
+                <img class="simboloSolo" src="assets/IMG/TablaPeriodica/pocima.png" alt="">
+            </td>
+            <td class="abreviatura">R
+                <br><p class="nombreCompleto">Respirator</p>
+            </td>
+            <td>
+                <img class="simboloSolo" src="assets/IMG/TablaPeriodica/movil.png" alt="">
+            </td>
+            <td class="abreviatura">Pl
+                <br><p class="nombreCompleto">Plate</p>
+            </td>
+            <td>
+                <img class="simboloSolo" src="assets/IMG/TablaPeriodica/mosca.png" alt="">
+            </td>
+        </tr>
+        <tr class="tablaInferior">
+            <td>
+                <img class="simboloSolo" src="assets/IMG/TablaPeriodica/cristal.png" alt="">
+            </td>
+            <td class="abreviatura">RV
+                <br><p class="nombreCompleto">The Crystal Ship</p>
+            </td>
+            <td>
+                <img class="simboloSolo" src="assets/IMG/TablaPeriodica/pizza.png" alt="">
+            </td>
+            <td class="abreviatura">Lz
+                <br><p class="nombreCompleto">Laser Base</p>
+            </td>
+            <td class="abreviatura">
+                <img class="simboloSolo" src="assets/IMG/TablaPeriodica/calzoncillos.png" alt="">
+            </td>
+            <td class="abreviatura">HCI
+                <br><p class="nombreCompleto">Hydrochloric Acid</p>
+            </td>
+            <td>
+                <img class="simboloSolo" src="assets/IMG/TablaPeriodica/mascara.png" alt="">
+            </td>
+            <td class="abreviatura">FI
+                <br><p class="nombreCompleto">Flip Phone</p>
+            </td>
+            <td>
+                <img class="simboloSolo" src="assets/IMG/TablaPeriodica/plato.png" alt="">
+            </td>
+            <td class="abreviatura">Fy
+                <br><p class="nombreCompleto">Fly</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

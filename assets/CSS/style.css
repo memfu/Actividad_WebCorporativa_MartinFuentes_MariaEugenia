@@ -1,0 +1,172 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.conFondo {
+    background-image: url("../IMG/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sinFondo {
+    background-color: #5E720A;
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+}
+
+#poster {
+    width: 700px;
+    height: 300px;
+    border: 10px;
+    border-style: outset;
+    border-color: brown;
+    border-radius: 22px;
+}
+
+#cabecera {
+    width: 25vw;
+    height: 25vh;
+    margin-bottom: 3rem;
+}
+
+.centrado {
+    display: block;
+    margin: auto;
+}
+
+/* Colores y fondos de las celdas*/
+    .simbolo {
+        width: 75%;
+    }
+    .simboloSolo {
+        width: 100%;
+    }
+
+    #hankSchrader {
+        background-image: url("../IMG/TablaPeriodica/hankschrader.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #marieLila {background-color: #AE87D6;}
+
+    .verdeClaro{background-color: #CFEA65;}
+
+    .verdeMasClaro{background-color: #83BAB5;}
+
+    .verdeLima{background-color: #BFE321;}
+
+    .gris{background-color: #B8C498;}
+
+    .verdeCamoClaro{background-color: #7E8D43;}
+
+    .verdeCamoOscuro{background-color: #5E7312;}
+
+    .verdeCamoMedio{background-color: #457D00;}
+
+    .tablaInferior{background-color: #BEC900;}
+
+/*Formulario*/
+    form{
+        background-color: rgb(95, 158, 160,0.65);
+        width: 60vw;
+        height: fit-content;
+        padding: 2rem;
+    }
+
+    fieldset {margin-bottom: 1rem;}
+
+    .campo {display: block;}
+
+    .campo label {
+        display: inline-block;
+        width: 4rem;
+        margin: 0.7rem 0;
+        margin-right: 10px;
+    }
+
+    .campo input {margin-left: 0.5rem;}
+
+    #campoCorreo {width: 10rem;}
+
+    #campoGenero {width: 10rem;}
+
+    #campoFechaNac {width: 10rem;}
+
+    #campocodPost {width: 7rem;}
+
+    textarea {
+        display: block;
+        width: 90%;
+        height: 100px;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        resize: none;
+    }
+
+    .inputCorto {width: 3rem;}
+
+    .inputLargo {width: 12rem;}
+
+    input[type=submit], input[type=reset] {
+        display: inline-block;
+        margin: auto;
+        margin-top: 1rem;
+        margin-right: 2rem;
+        padding-inline: 3rem;
+    }
+
+/*Tabla*/
+    table{
+        background-color: #0c3e11;
+        width: 75%;
+        height: 75%;
+        border-spacing: 10px; /* Espaciado entre celdas */
+        margin: auto;
+        text-align: center;
+    }
+
+    #segundaTabla{
+        width: 50%;
+        height: 50%; 
+    }
+
+    tr {
+        width: 70px;
+        height: 70px;
+    }
+
+    table p{
+        margin: 0.1rem;
+    }
+
+
+/*Tipografías*/
+    .abreviatura {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .nombreCompleto{
+        font-size: 10px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    #conTipografia{
+        font-family: "Breaking Bad", sans-serif;
+        font-size: 40px;
+        color: white;
+        text-align: center;
+    }
+
+    @font-face {
+        font-family: "Breaking Bad";
+        src: url("../fonts/Breaking Bad.ttf") format("truetype");
+    }
